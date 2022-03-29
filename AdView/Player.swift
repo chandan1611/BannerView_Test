@@ -237,6 +237,8 @@ class PlayerManager : NSObject {
                     }
                 case .failed:
                     self.status = .failed
+                @unknown default:
+                    break
                 }
             }
             break

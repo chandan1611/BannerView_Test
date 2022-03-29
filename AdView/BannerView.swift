@@ -44,7 +44,7 @@ public class BannerView: UIView {
     fileprivate func setPlayPauseButtonImage(_ status: PlayerStatus) {
      
         switch status {
-        case .loading, .none: break
+        case .loading, .none: 
             btnPlay.setImage(UIImage(systemName: "play.fill"), for:.normal)
         case .readyToPlay : break
          
